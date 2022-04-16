@@ -7,17 +7,17 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public appPages = [
     { title: 'Navegação', url: '/navegacao', icon: 'code' },
-    { title: 'Recebidos', url: '/folder/Inbox', icon: 'mail' },
-    { title: 'Enviados', url: '/folder/Outbox', icon: 'paper-plane' },
-    { title: 'Favoritos', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Arquivado', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Lixo', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
-    { title: 'Lucro', url: '/folder/Lucro', icon: 'diamond' },
-    { title: 'Despesa', url: '/folder/Despesa', icon: 'thunderstorm' },
-    { title: 'Saldo', url: '/folder/Saldo', icon: 'layers' },
-    { title: 'Extrato', url: '/folder/Extrato', icon: 'grid' },
-    { title: 'Boletos', url: '/folder/Boletos', icon: 'newspaper' },
+    { title: 'Recebidos', url: '/Inbox', icon: 'mail' },
+    { title: 'Enviados', url: '/Outbox', icon: 'paper-plane' },
+    { title: 'Favoritos', url: '/Favorites', icon: 'heart' },
+    { title: 'Arquivado', url: '/Archived', icon: 'archive' },
+    { title: 'Lixo', url: '/Trash', icon: 'trash' },
+    { title: 'Spam', url: '/Spam', icon: 'warning' },
+    { title: 'Lucro', url: '/Lucro', icon: 'diamond' },
+    { title: 'Despesa', url: '/Despesa', icon: 'thunderstorm' },
+    { title: 'Saldo', url: '/Saldo', icon: 'layers' },
+    { title: 'Extrato', url: '/Extrato', icon: 'grid' },
+    { title: 'Boletos', url: '/Boletos', icon: 'newspaper' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}

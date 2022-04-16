@@ -19,6 +19,54 @@ const routes: Routes = [
     path: 'navegacao2',
     loadChildren: () => import('./pages/navegacao2/navegacao2.module').then( m => m.Navegacao2PageModule)
   },
+  {
+    path: 'inbox2',
+    loadChildren: () => import('./pages/inbox2/inbox2.module').then( m => m.Inbox2PageModule)
+  },
+  {
+    path: 'inbox',
+    loadChildren: () => import('./pages/inbox/inbox.module').then( m => m.InboxPageModule)
+  },
+  {
+    path: 'outbox',
+    loadChildren: () => import('./pages/outbox/outbox.module').then( m => m.OutboxPageModule)
+  },
+  {
+    path: 'outbox2',
+    loadChildren: () => import('./pages/outbox2/outbox2.module').then( m => m.Outbox2PageModule)
+  },
+  {
+    path: 'favorites',
+    loadChildren: () => import('./pages/favorites/favorites.module').then( m => m.FavoritesPageModule)
+  },
+  {
+    path: 'favorites2',
+    loadChildren: () => import('./pages/favorites2/favorites2.module').then( m => m.Favorites2PageModule)
+  },
+  {
+    path: 'archived',
+    loadChildren: () => import('./pages/archived/archived.module').then( m => m.ArchivedPageModule)
+  },
+  {
+    path: 'archived2',
+    loadChildren: () => import('./pages/archived2/archived2.module').then( m => m.Archived2PageModule)
+  },
+  {
+    path: 'trash',
+    loadChildren: () => import('./pages/trash/trash.module').then( m => m.TrashPageModule)
+  },
+  {
+    path: 'trash2',
+    loadChildren: () => import('./pages/trash2/trash2.module').then( m => m.Trash2PageModule)
+  },
+  {
+    path: 'spam',
+    loadChildren: () => import('./pages/spam/spam.module').then( m => m.SpamPageModule)
+  },
+  {
+    path: 'spam2',
+    loadChildren: () => import('./pages/spam2/spam2.module').then( m => m.Spam2PageModule)
+  },
 ];
 
 @NgModule({
