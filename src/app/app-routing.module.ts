@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'folder/Inbox',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   {
@@ -66,6 +66,14 @@ const routes: Routes = [
   {
     path: 'spam2',
     loadChildren: () => import('./pages/spam2/spam2.module').then( m => m.Spam2PageModule)
+  },
+  {
+    path: 'botao',
+    loadChildren: () => import('./pages/botao/botao.module').then( m => m.BotaoPageModule)
+  },
+  {
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
 ];
 
