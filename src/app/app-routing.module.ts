@@ -95,6 +95,18 @@ const routes: Routes = [
     path: 'botao5',
     loadChildren: () => import('./botao5/botao5.module').then( m => m.Botao5PageModule)
   },
+  {
+    path: 'alerta',
+    loadChildren: () => import('./pages/alerta/alerta.module').then( m => m.AlertaPageModule)
+  },
+  {
+    path: 'actionsheet',
+    loadChildren: () => import('./pages/actionsheet/actionsheet.module').then( m => m.ActionsheetPageModule)
+  },
+  {
+    path: 'badge',
+    loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
+  },
 ];
 
 @NgModule({
